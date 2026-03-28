@@ -2713,7 +2713,7 @@ G2L_MODULES[G2L["6"]] = {
 G2L_MODULES[G2L["7"]] = {
 	Closure = function()
 		local script = G2L["7"];return {
-			["Version"] = "v0.0.7",
+			["Version"] = "V0.0.8",
 			["Booleans"] = {
 				["PrintOutTables"] = {["Value"] = false},
 				["Gui"] = {
@@ -5502,6 +5502,33 @@ G2L_MODULES[G2L["fb"]] = {
 					WalkAnim = "rbxassetid://18747074203",
 				},
 			},
+			["Glow Motion Animation Pack"] = {
+				climb = {
+					ClimbAnim = "rbxassetid://108236155509584",
+				},
+				fall = {
+					FallAnim = "rbxassetid://98070939608691",
+				},
+				idle = {
+					Animation2 = "rbxassetid://96439737641086",
+					Animation1 = "rbxassetid://137764781910579",
+				},
+				jump = {
+					JumpAnim = "rbxassetid://74159004634379",
+				},
+				run = {
+					RunAnim = "rbxassetid://101925097435036",
+				},
+				swim = {
+					Swim = "rbxassetid://83003487432457",
+				},
+				swimidle = {
+					SwimIdle = "rbxassetid://112946194103503",
+				},
+				walk = {
+					WalkAnim = "rbxassetid://85809016093530",
+				},
+			},
 			["Robot Animation Pack"] = {
 				climb = {
 					ClimbAnim = "http://www.roblox.com/asset/?id=10921247141",
@@ -5808,7 +5835,6 @@ G2L_MODULES[G2L["fd"]] = {
 	["Baby Queen - Strut"] = {14352362059, 14353425085},
 	["Godlike"] = {10714347256, 3823158750},
 	["Mae Stephens - Piano Hands"] = {16553163212, 16553249658},
-	["Headless"] = {95028585258819, 121578277803212},
 	["d4vd - Backflip"] = {15693621070, 15694504637},
 	["Skibidi Toilet - Titan Speakerman Laser Spin"] = {134283166482394, 103102322875221},
 	["Elton John - Heart Shuffle"] = {17748314784, 17748346932},
@@ -5846,9 +5872,7 @@ G2L_MODULES[G2L["fd"]] = {
 	["Take The L"] = {81809682819287, 82405492529515},
 	["Blue Top Rock"] = {87829410188996, 101572357319427},
 	["Jumping Spider Emote"] = {81934681210422, 111427367473754},
-	["Legend Aura Fly"] = {110835852737455, 113052038011116},
 	["Race Car"] = {72382226286301, 121936817462716},
-	["SUPER FLING"] = {84611618820648, 118100340767805},
 	["Russian Dance"] = {97148848007002, 74608751145756},
 	["67 Emote (Meme)"] = {116833687248769, 85409308399700},
 	["Orange Justice"] = {95127716920692, 110064349530772},
@@ -5857,9 +5881,7 @@ G2L_MODULES[G2L["fd"]] = {
 	["Koto Nai Meme Dance"] = {83650099589962, 91927498467600},
 	["Gojo Floating Pose"] = {109030594660124, 103040723950430},
 	["Demon Slayer | Douma Sit"] = {127626736897320, 96606489351695},
-	["SpiderMan"] = {135389131285203, 126734219384840},
 	["Body Phone"] = {94162093658027, 110262668561006},
-	["Electro Swing"] = {98572253098210, 127496601790579},
 	["Basketball Head"] = {138243322520289, 107282826166809},
 	["Tornado"] = {135373056067761, 82995540773684},
 	["Hey Ya Move"] = {119734573196374, 104338766814874},
